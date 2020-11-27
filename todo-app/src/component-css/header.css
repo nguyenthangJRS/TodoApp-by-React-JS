@@ -1,0 +1,14 @@
+.nav-item > a{
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+
+}
+.nav-item a:hover{
+    transform: translateY(-10px);
+    color: white;
+    font-size: 15px;
+}
+.jumbotron{
+    display: flex;
+    justify-content: center;
+}

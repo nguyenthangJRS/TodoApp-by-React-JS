@@ -1,0 +1,47 @@
+input[type="search"]{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+button[type="submit"]{
+    height: 100%;
+    margin-bottom:5px;
+    margin-left: 3px;
+}
+::-webkit-input-placeholder{
+    padding-left: 5px;
+}
+select{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+option{
+    text-align: center;
+}
+.addPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addPost button{
+    height: 100%;
+    outline: none;
+    border: 1px solid red;
+    box-shadow: 1px 2px 8px black;
+    border-radius: 5px;
+}
+.addPost button:hover{
+    cursor: pointer;
+}
