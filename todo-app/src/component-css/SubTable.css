@@ -1,0 +1,27 @@
+.fa-danger{
+    color :#CC0000;
+    transition: 0.3s ease-in;
+}
+.fa-success{
+    color:#00C851;
+    transition: 0.3s ease-in;
+}
+.fa-danger:hover,.fa-success:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.color-btn{
+    color: blue;
+    transition: 0.3s ease-in;
+}
+.fa-trash-o{
+    color: tomato;
+    transition: 0.3s ease-in;
+}
+.fa-trash-o:hover, .color-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.red{
+    background: #df9898;
+}

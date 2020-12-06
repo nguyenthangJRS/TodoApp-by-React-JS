@@ -57,3 +57,9 @@ textarea{
 .status-div option{
     background: darkgrey;
 }
+.hiddenTable{
+    display: none;
+}
+.btn-size{
+    height: 40px !important;
+}
